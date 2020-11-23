@@ -1,3 +1,7 @@
+.chats-screen {
+  height: 130vh;
+}
+
 @keyframes scale-big {
   0% {
     transform: scale(1);
