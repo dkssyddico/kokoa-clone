@@ -21,7 +21,7 @@
 :root {
   --navy: #09213b;
   --light-navy: #1e344d;
-  --brown: #e6a26a;
+  --brown: rgb(230, 162, 106);
   --white: whitesmoke;
   --yellow: #fae100;
   --main-border: 1px solid #1e344d;
