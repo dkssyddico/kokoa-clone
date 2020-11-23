@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap');
+
+@import 'reset.css';
+
+@import 'components/icon-row.css';
+@import 'components/status-bar.css';
+@import 'components/screen-header.css';
+@import 'screen/login.css';
+@import 'screen/friends.css';
+@import 'components/user-component.css';
+@import 'components/nav-bar.css';
+@import 'components/badge.css';
+@import 'screen/chats.css';
+@import 'screen/chat.css';
+@import 'components/no-mobile.css';
+@import 'components/alt-screen-header.css';
+@import 'screen/find.css';
+@import 'screen/more.css';
+@import 'screen/settings.css';
+
+:root {
+  --navy: #09213b;
+  --light-navy: #1e344d;
+  --brown: #e6a26a;
+  --white: whitesmoke;
+  --yellow: #fae100;
+  --main-border: 1px solid #1e344d;
+}
+
+* {
+  font-size: 16px;
+  font-family: 'Nunito';
+  font-weight: 600;
+}
+
+body {
+  background-color: var(--navy);
+  color: var(--white);
+  font-size: 16px;
+  font-family: 'Nunito';
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.container {
+  padding: 0 30px;
+}

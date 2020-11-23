@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Hogwarts Talk Login</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Hogwarts</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column icons">
+        <span>100%</span>
+        <!-- Battery icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!-- Lightning icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="header-welcome">
+      <h1 class="header__title">Welcome to Hogwarts Talk</h1>
+      <p class="header__text">
+        If you belong to Hogwarts,
+        <br />
+        log in with your Student ID or Password.
+      </p>
+    </header>
+
+    <form action="friends.html" id="login-form" method="get">
+      <input name="username" type="text" placeholder="Student ID" required />
+      <input name="password" type="password" placeholder="Password" required />
+      <input type="submit" value="Log in" />
+      <button class="get-admission">Get admission</button>
+      <a href="#">Find Student ID or Password</a>
+    </form>
+    <div id="no-mobile">
+      <i class="fas fa-magic"></i>
+      <span
+        >Your screen is super big
+        <br />
+        Let's say "Lower the screen size!"
+      </span>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Settings</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Hogwarts</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column icons">
+        <span>100%</span>
+        <!-- Battery icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!-- Lightning icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="container">
+      <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="more.html">
+            <i class="fas fa-angle-left fa-3x"></i>
+          </a>
+        </div>
+        <div class="alt-header__column">
+          <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+          <i class="fas fa-search fa-2x"></i>
+        </div>
+      </header>
+      <!-- main screen -->
+      <main class="main-screen">
+        <ul class="settings-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-bullhorn"></i>
+              <span>Notices</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-magic"></i>
+              <span>Hogwarts Lab</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-info-circle"></i>
+              <span>Version</span>
+            </div>
+            <div class="settings__setting-column">Latest Version</div>
+          </li>
+        </ul>
+        <ul class="settings-list">
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-lock"></i>
+              <span>Privacy</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-bell"></i>
+              <span>Alarm</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-hat-wizard"></i>
+              <span>Friends</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="far fa-comment"></i>
+              <span>Chatting</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-child"></i>
+              <span>Teleport</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+          <li class="settings__setting">
+            <div class="settings__setting-column">
+              <i class="fas fa-ellipsis-h"></i>
+              <span>etc</span>
+            </div>
+            <div class="settings__setting-column"></div>
+          </li>
+        </ul>
+      </main>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="fas fa-hat-wizard fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">5</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <i class="fas fa-magic"></i>
+      <span
+        >Your screen is too big
+        <br />
+        Let's say "Lower the screen size!"
+      </span>
+    </div>
+  </body>
+</html>

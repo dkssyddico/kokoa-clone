@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chats</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>Hogwarts</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column icons">
+        <span>100%</span>
+        <!-- Battery icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!-- Lightning icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Screen Header -->
+      <header class="screen-header">
+        <h1 class="screen-header__title">Chats</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i></span>
+          <span><i class="fas fa-music fa-lg"></i></span>
+          <span
+            ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+          ></span>
+          <div class="red-dot"></div>
+        </div>
+      </header>
+
+      <!-- announcement -->
+      <div class="announcement">50 points to Gryffindor !</div>
+
+      <!-- main screen -->
+      <main class="main-screen">
+        <a class="chat-margin" href="chat.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="imgs/ron.jpg"
+                alt=""
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Ron</h4>
+                <h6 class="user-component__subtitle">Where r u, Harry?</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">21:22</span>
+              <div class="badge">3</div>
+            </div>
+          </div>
+        </a>
+        <a class="chat-margin" href="chat-h.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="imgs/hermione.jpg"
+                alt=""
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">Hermione</h4>
+                <h6 class="user-component__subtitle">I'm in the library.</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">21:22</span>
+              <div class="badge">1</div>
+            </div>
+          </div>
+        </a>
+        <a class="chat-margin" href="chat-q.html">
+          <div class="user-component">
+            <div class="user-component__column">
+              <img
+                src="imgs/gryqu.jpg"
+                alt=""
+                class="user-component__avatar user-component__avatar"
+              />
+              <div class="user-component__text">
+                <h4 class="user-component__title">
+                  Gryffindor Quidditch Team <span class="team-member"> 7</span>
+                </h4>
+                <h6 class="user-component__subtitle">Practice. Thusday. 5:00 PM.</h6>
+              </div>
+            </div>
+            <div class="user-component__column">
+              <span class="user-component__time">21:22</span>
+              <div class="badge">1</div>
+            </div>
+          </div>
+        </a>
+      </main>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"><i class="fas fa-hat-wizard fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">5</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <i class="fas fa-magic"></i>
+      <span
+        >Your screen is too big
+        <br />
+        Let's say "Lower the screen size!"
+      </span>
+    </div>
+  </body>
+</html>

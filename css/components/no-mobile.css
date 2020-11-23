@@ -1,0 +1,56 @@
+#no-mobile {
+  position: absolute;
+  text-align: center;
+  line-height: 2.5;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--navy);
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: var(--brown);
+}
+
+@keyframes color-rotate {
+  0% {
+    color: white;
+    transform: rotate(1turn);
+  }
+
+  25% {
+    color: rgb(153, 204, 58);
+    transform: rotate(0.8turn);
+  }
+
+  50% {
+    color: rgb(91, 174, 223);
+    transform: rotate(1turn);
+  }
+
+  75% {
+    color: plum;
+    transform: rotate(0.8turn);
+  }
+
+  100% {
+    color: rgb(182, 89, 243);
+    transform: rotate(1turn);
+  }
+}
+
+#no-mobile i {
+  font-size: 64px;
+  margin-bottom: 30px;
+  color: white;
+  animation: color-rotate 3s ease-in-out infinite;
+}
+
+@media screen and (max-width: 760px) {
+  #no-mobile {
+    display: none;
+  }
+}

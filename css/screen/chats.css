@@ -1,0 +1,47 @@
+@keyframes scale-big {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.announcement,
+.announcement-card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: 40px auto;
+  background-color: var(--light-navy);
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 18px;
+  letter-spacing: 4px;
+  box-shadow: 0 0 15px var(--brown);
+}
+
+.announcement {
+  animation: scale-big 2s ease-in-out infinite;
+}
+
+.announcement i {
+  margin-right: 24px;
+  color: gold;
+}
+
+.user-component__title .team-member {
+  color: gray;
+}
+
+.chat-margin {
+  display: block;
+  margin-bottom: 30px;
+}
