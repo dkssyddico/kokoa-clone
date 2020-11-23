@@ -62,10 +62,23 @@
   justify-content: center;
   align-items: center;
   font-size: 122px;
-  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
   animation-delay: 2s;
+}
+
+@keyframes rotate360 {
+  from {
+    transform: none;
+    font-size: 122px;
+  }
+
+  to {
+    transform: rotate(360deg);
+    font-size: 61px;
+  }
 }
 
 #splash-screen i {
   color: var(--brown);
+  animation: rotate360 1s ease-in-out infinite;
 }
